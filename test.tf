@@ -13,7 +13,7 @@ provider "aws" {
   profile = "default"
   region  = "us-east-1"
 }
-aasdf asdf
+# aasdf asdf
 
 resource "aws_vpc" "terraform_vpc_1" {
   cidr_block = "10.0.0.0/24"
